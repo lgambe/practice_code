@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background:Dodgerblue ;
+  height: 100vh;
+  overflow: hidden;   
+}
+.center{
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center .head{
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+.head h1{
+  color:#000;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 15px;
+  
+}
+.head h2{
+  color:#000;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+.center info{
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.info input{
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 30px;
+  width: 150px;
+  font-size: 18px;
+  background-color: LightGray;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.info #email{
+  height: 30px;
+   width: 320px;
+}
+.info #password{
+   height: 30px;
+   width: 320px;
+}
+.info h1{
+  margin-top: 15px;
+  margin-left: 10px;
+  color:gray;
+  font-size: 15px;
+}
+.info p{
+  position: relative;
+}
+.center button{
+    display: inline-block;
+    color: white;
+    background-color: LimeGreen;
+    font-size: 17px;
+    width:180px;
+    height: 40px;
+    padding: 3px 3px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 90px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+ .center button:hover{
+    background-color: Lightgray;
+
+  }
